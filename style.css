@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.video-wrapper {
+    position: absolute;
+  
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -999;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+form {
+    display: inline-block;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: rgba(10, 14, 9, 0.897);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+input {
+    padding: 10px 0;
+    width: 300px;
+    margin: 20px 0;
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    opacity: 0.8;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.796);
+}
+
+.last__name {
+    margin-left: 30px;
+}
+
+.email {
+    width: 100%;
+}
+
+.password {
+    width: 100%;
+}
+
+.date {
+    width: 100%;
+}
+
+.checkbox__item {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    width: 20px;
+    height: 17px;
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 221, 0.459);
+    transition: all .5s;
+}
+
+button:hover {
+    color: white;
+    background: rgba(0, 0, 255, 0.358);
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff6a;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
